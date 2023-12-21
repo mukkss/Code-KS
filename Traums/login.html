@@ -1,25 +1,47 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="login.css">
   <title>Login Page</title>
 </head>
+
 <body>
   <div class="login-container">
     <form>
       <div class="input-group">
-        <h1>Login Page</h1>
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-      </div>
-      <div class="input-group">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-      </div>
-      <button type="submit" class="login-btn">Login</button>
+        <div class="loginn">
+          <h1>Login Page</h1>
+        </div>
+        <div>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="input-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="mid">
+          <button id="Submit" onclick="Done()">Submit</button>
+        </div>
     </form>
   </div>
+  <script>
+    function Done() {
+      var email = document.getElementById('email').value;
+
+      // Add your signup logic here (e.g., validation, submission to server, etc.)
+
+      // For demonstration, display an alert with the entered email
+      alert('Signup successful! Email: ' + email);
+    }
+
+    document.getElementById('Submit').addEventListener('click', function () {
+      window.location.href = 'index.html'; // Replace this URL with the website you want to link to
+    });
+  </script>
 </body>
+
 </html>
