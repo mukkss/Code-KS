@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Signup</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+
+  <div id="signup-container">
+    <img id="logo" src="/assets/logo.png" alt="logo"/> <!-- Replace with your logo URL -->
+    <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+    <br>
+  </div>
+  <div>
+    <button id="Done-button" onclick="Done()">Done</button>
+  </div>
+
+  <script>
+    function signup() {
+      var email = document.getElementById('email').value;
+
+      // Add your signup logic here (e.g., validation, submission to server, etc.)
+
+      // For demonstration, display an alert with the entered email
+      alert('Signup successful! Email: ' + email);
+    }
+  </script>
+
+</body>
+</html>

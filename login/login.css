@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('seaaa.jpg');
+    background-size:  cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .login-container {
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid #E6E6FA;
+    border-radius: 8px;
+    background-color: #E6E6FA;
+  }
+    img.logo {
+        width: 50px; /* Set the width of your logo */
+        height: auto;
+        text-align: center;
+  }
+
+  .input-group {
+    margin-bottom: 20px;
+  }
+
+  .input-group input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  .input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .login-btn {
+    background-color: #6776a5;
+    color: #fff;
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .login-btn:hover {
+    background-color: #677ec6;
+  }
