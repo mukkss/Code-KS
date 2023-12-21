@@ -7,7 +7,7 @@ body {
     align-items: center;
     height: 100vh;
     background: linear-gradient(to bottom right, lavender, white);
-    background-image: url('D:\Roolathonn\Code-KS\assets\dowwnload.jpeg');
+    background-image: url('assets\download.jpeg');
     /* Replace with your theme image URL */
     background-position: center;
     background-repeat: no-repeat;
