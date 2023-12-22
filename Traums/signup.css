@@ -1,50 +1,62 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: linear-gradient(to bottom right, lavender, white);
-    background-image: url('assets/download.jpeg'); /* Replace with your theme image URL */
-    background-size: cover;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, lavender, white);
+  background-image: url('assets/download.jpeg'); /* Replace with your theme image URL */
+  background-size: cover;
+}
+.email{
+  text-align: left;
+}
+#signup-container {
+  text-align: left;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(115, 111, 220, 0.1);
+  background-color: rgba(167, 167, 236, 0.8);
+  width: 20%;
+  height: 60%;
+  box-sizing: border-box;
+}
 
-  #signup-container {
-    text-align: center;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(115, 111, 220, 0.1);
-    background-color: rgba(167, 167, 236, 0.8);
-    width: 30%;
-    height: 50%;
-    box-sizing: border-box;
-  }
+#logo {
+  max-width: 100px;
+  margin-bottom: 45px;
+}
 
-  #logo {
-    max-width: 100px;
-    margin-bottom: 45px;
-  }
-  #logo-container {
-    text-align: center;
-  }
-  input {
-    padding: 10px;
-    margin: 10px 0;
-    width: 60%;
-    box-sizing: border-box;
-  }
+#logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
-  #Done-button {
-    background-color: #5c77ce;
-    color: rgb(255 255 255);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+#email{
+  text-align: left;
+}
+.ok{
+  text-align: center;
+}
 
-  #Done-button:hover {
-    background-color: #5c77ce;
-  }
+#Done-button {
+  background-color: #496fed;
+  color: rgb(255 255 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#Done-button:hover {
+  background-color: #5c77ce;
+}
