@@ -421,3 +421,10 @@ img {
         display: none;
     }
 }
+
+#chatbotframe {
+    width: fit-content;
+    height: max-content;
+    float: left;
+    border: none; 
+}
